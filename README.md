@@ -82,3 +82,9 @@ git commit -m "message"
  git rebase
 ```
 - Si has estado trabajando en una rama y la rama principal ha avanzado, puedes usar rebase para incorporar los últimos cambios a tu rama. 
+
+```
+ git clean -f
+```
+- Si para eliminar cambios de archivos no trakeados -f (force), -n(advertencia)
+- Trakeado es un archivo nuevo que no ha tenido commits
