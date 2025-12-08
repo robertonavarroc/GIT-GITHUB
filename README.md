@@ -1,3 +1,4 @@
+<div>
 # GIT-GITHUB
 > Curso de Git y Github
 
@@ -83,8 +84,25 @@ git commit -m "message"
 ```
 - Si has estado trabajando en una rama y la rama principal ha avanzado, puedes usar rebase para incorporar los últimos cambios a tu rama. 
 
+![The San Juan Mountains are beautiful](./imagenes/gitgub_estados.png "San Juan Mountains")
+
+> #### Estamos en la etapa de **`working directory`**, antes de hacer **`git add .`**
 ```
  git clean -f
 ```
-- Si para eliminar cambios de archivos no trakeados -f (force), -n(advertencia)
-- Trakeado es un archivo nuevo que no ha tenido commits
+- Sirve para eliminar cambios de archivos no trakeados 
+- No Trakeado es un archivo nuevo que no ha tenido commits
+    - **-`f`** ==> Sirve para forzar la eliminacion 
+    - **-`n`** ==> Sirve para saber que elemento se van a eliminar
+
+> #### Estamos en la etapa de **`staging area`**, desde de hacer **`git add .`**
+```
+ git reset HEAD archivo
+```
+- Sirve para deshacer cambios que ya han sido traqueados, y se han subido al staging Area con el comando **`git add .`**
+
+> #### Estamos en la etapa de **`git repository`**, desde de hacer **`git commit -m "message"`**
+```
+ git reset HEAD archivo
+```
+- Sirve para deshacer cambios que ya han sido traqueados, y se han subido al staging Area con el comando **`git add .`**
