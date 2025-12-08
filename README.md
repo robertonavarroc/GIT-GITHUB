@@ -134,3 +134,12 @@ git commit -m "message"
  git revert commit
 ```
 - Sirve para deshacer que han sido traqueado y subidos al **`stage area`**, a los cuales se le realizo el **`git commit -m "message"`**
+
+> ## Guardar cambios que se encuentran en la **`Working directory`**
+- Para ello utilizamos el stash, que funciona como un temporal o espacio oculto, donde puedes alojar tus cambios que aun no se han promovido a la `staging Area`, osea a los que no se les ha hecho `git add .` y siguen como **no traqueados** o **modificados**. 
+
+> `git stash`
+- Sirve para ocultar los cambios realizados sobre la fase de la **`Working directory`**
+
+> `git stash pop`
+- Sirve para recuperar los cambios guardados en la **`Working directory`**
