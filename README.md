@@ -105,4 +105,4 @@ git commit -m "message"
 ```
  git revert
 ```
-- Sirve para deshacer cambios que ya han sido traqueados, y se han subido al staging Area con el comando **`git add .`**
+- Sirve para deshacer cambios que ya han sido traqueados, y se han subido al staging Area con el comando **`git commit -m "message"`**
