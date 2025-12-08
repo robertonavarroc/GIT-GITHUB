@@ -53,6 +53,22 @@ git clone URL
 - Sirve para clonar clonar el repositorio de `Github` **(Repositorio remoto)**
 
 ```
+git branch
+```
+- Sirve ver todas las ramas creadas en git 
+- :star: Aparece de color verde en la rama que estamos situados
+
+```
+git checkout -b rama
+```
+- Sirve para crear una nueva rama
+
+```
+git checkout rama
+```
+- Sirve para moverse entre ramas
+
+```
 git pull origin branch(main)
 ```
 - Actualiza el repositorio local, con todos los cambios realizados por el usuario o otros usuarios
@@ -77,6 +93,19 @@ git commit -m "message"
  git push origin branch
 ```
 - Envia los cambios ya confirmados de la rama local al repositorio remoto
+
+```
+ git merge
+```
+- Sirve para unir los cambios entre ramas
+
+```
+ git merge branch
+```
+- Utilizamos este comando para unir los cambios entre ramas
+    * Nos situamos en la rama que tomara los cambios, ya sea la principal o otra rama
+    * Aplicamos en comando **`git merge branch`**
+    * **`branch`** tiene que apuntar al branch donde estan los cambios para unificarlos con el principal 
 
 ```
  git rebase
