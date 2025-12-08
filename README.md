@@ -103,6 +103,6 @@ git commit -m "message"
 
 > #### Estamos en la etapa de **`git repository`**, desde de hacer **`git commit -m "message"`**
 ```
- git revert
+ git reset HEAD archivo
 ```
 - Sirve para deshacer cambios que ya han sido traqueados, y se han subido al staging Area con el comando **`git commit -m "message"`**
